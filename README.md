@@ -1,4 +1,4 @@
-# [CABIN 2.0.1](https://www.curseforge.com/minecraft/modpacks/cabin) on Curseforge
+# [CABIN 2.0.2](https://www.curseforge.com/minecraft/modpacks/cabin) on Curseforge
 
 **[Based on docker setup from Goobaroo](https://github.com/Goobaroo/docker-createaboveandbeyond)**
 
@@ -22,7 +22,7 @@ Code and documentation is mostly copied from goobaru, with some changes to make 
 
 This container is primarily built to run on an [Unraid](https://unraid.net) server, outside of that your mileage will vary.
 
-The docker on first run will download the same version as tagged of CABIN v2.0.1 and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of CABIN v2.0.2 and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will start the server.
 
