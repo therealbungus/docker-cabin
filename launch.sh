@@ -11,13 +11,13 @@ else
 	exit 9
 fi
 
-if ! [[ -f 'Server-2.0.4.zip' ]]; then
+if ! [[ -f 'Server-2.0.5.zip' ]]; then
 	rm -fr config defaultconfigs libraries kubejs ldlib mods Server*.zip forge*.jar forge*.log run.bat run.sh
 	curl -Lo '/data/forge-1.20.1-47.3.0-installer.jar' 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar'
 	java -jar forge-1.20.1-47.3.0-installer.jar --installServer
-	curl -Lo 'Server-2.0.4.zip' 'https://github.com/ThePansmith/CABIN/releases/download/2.0.4/CABIN-Release.2.0.4-server.zip' 
+	curl -Lo 'Server-2.0.5.zip' 'https://github.com/ThePansmith/CABIN/releases/download/2.0.5/CABIN-Release.2.0.5-server.zip' 
 	ln -s /data /data/overrides
-	unzip -u -o 'Server-2.0.4.zip' -d /data
+	unzip -u -o 'Server-2.0.5.zip' -d /data
 	rm /data/overrides
 fi
 
