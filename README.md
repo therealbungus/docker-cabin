@@ -1,4 +1,4 @@
-# [CABIN 2.0.5](https://www.curseforge.com/minecraft/modpacks/cabin) on Curseforge
+# [CABIN 2.0.6](https://www.curseforge.com/minecraft/modpacks/cabin) on Curseforge
 
 **[Based on docker setup from Goobaroo](https://github.com/Goobaroo/docker-createaboveandbeyond)**
 
@@ -39,7 +39,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xmx8G -Xms8G"
-* MOTD "CABIN 2.0.5 Server Powered by Docker"
+* MOTD "CABIN 2.0.6 Server Powered by Docker"
 * LEVEL world
 
 ### Adding Minecraft Operators
